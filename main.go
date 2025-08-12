@@ -6,9 +6,10 @@ import (
 
 func main() {
 	fmt.Println("Hello, World!")
-	digaOi()
+	a, b := swap(10, 20)
+	fmt.Println(a, b)
 }
 
-func digaOi() {
-	fmt.Println("Oi, mundo!")
+func swap(a, b int) (int, int) {
+	return b, a
 }
